@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/synopsysTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synopsis"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <ScrollView
+        android:id="@+id/svDescription"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/synopsysTitle"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:scrollbars="none"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:lineHeight="24dp"
+                android:text="@string/description"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

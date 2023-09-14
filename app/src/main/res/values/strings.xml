@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BelajarAndroidActivity</string>
+    <string name="lorem">
+        Amazing view can be enjoyed from above of refreshing city
+    </string>
+    <string name="title_music">My  <font fgcolor="#8070ff">Music App</font></string>
+    <string name="title_discover">Discover</string>
+    <string name="description">
+The story begins fifty years before the present day, with a description of how the Riddle family was mysteriously killed at supper, and their groundsman, Frank Bryce, was suspected of the crime, then declared innocent. Frank Bryce, now an elderly man, wakes in the night to see a light in the window of the abandoned Riddle House. \n He investigates and overhears Voldemort and Wormtail plotting to kill a boy named Harry Potter. Voldemort takes note of him and kills him on the spot. Harry Potter wakes up in the night with a throbbing pain in the scar Voldemort gave him.\n He worries that Voldemort is nearby, and he writes to Sirius Black, his godfather, mentioning the pain in his scar.\n
+The story begins fifty years before the present day, with a description of how the Riddle family was mysteriously killed at supper, and their groundsman, Frank Bryce, was suspected of the crime, then declared innocent. Frank Bryce, now an elderly man, wakes in the night to see a light in the window of the abandoned Riddle House. \n He investigates and overhears Voldemort and Wormtail plotting to kill a boy named Harry Potter. Voldemort takes note of him and kills him on the spot. Harry Potter wakes up in the night with a throbbing pain in the scar Voldemort gave him. \n He worries that Voldemort is nearby, and he writes to Sirius Black, his godfather, mentioning the pain in his scar. \n
+The story begins fifty years before the present day, with a description of how the Riddle family was mysteriously killed at supper, and their groundsman, Frank Bryce, was suspected of the crime, then declared innocent. Frank Bryce, now an elderly man, wakes in the night to see a light in the window of the abandoned Riddle House. \n He investigates and overhears Voldemort and Wormtail plotting to kill a boy named Harry Potter. Voldemort takes note of him and kills him on the spot. Harry Potter wakes up in the night with a throbbing pain in the scar Voldemort gave him. \n He worries that Voldemort is nearby, and he writes to Sirius Black, his godfather, mentioning the pain in his scar. \n
+
+    </string>
+    <string name="comment">
+      Bukunya keren banget guys
+
+    </string>
+    <string name="judul_doa"><![CDATA[Doa & Dzikir App]]></string>
+</resources>

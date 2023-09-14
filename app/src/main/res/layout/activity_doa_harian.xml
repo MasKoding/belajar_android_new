@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoaHarianActivity">
+<RelativeLayout
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/circle_test"
+    >
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Doa dan Dzikir Harian"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+
+        android:maxLines="2"
+        android:fontFamily="@font/poppins_bold"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/doa"
+        android:layout_toRightOf="@id/tvJudul"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+    </ScrollView>
+
+
+</RelativeLayout>

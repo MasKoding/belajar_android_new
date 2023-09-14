@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F57C00"
+    tools:context=".DetailDoaActivity">
+
+    <ImageButton
+        android:id="@+id/ibBackBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:backgroundTint="@color/white" />
+    <TextView
+        android:id="@+id/tvJudulDetail"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir dan Doa Sunnah Setelah Shalat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textColor="#F8F6F6"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvDetailArab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="100"
+                android:fontFamily="@font/poppins_bold"
+                android:text="اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                />
+            <TextView
+                android:id="@+id/tvDetailLatin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="100"
+                android:text="Alloohumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaanً"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
